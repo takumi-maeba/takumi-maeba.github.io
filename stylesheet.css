@@ -67,13 +67,14 @@ header{
 }
 
 .top-item img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
 }
 
 .about-me{
   float: right;
   background-color: white;
+  margin-right: 30px;
   padding: 0px 15px;
   border-radius: 5px;
 }
@@ -86,6 +87,250 @@ header{
   text-align: center;
 }
 
+.orange{
+  color:#FF6600;
+}
+
 .achievements-top{
-  background-color: white;
+  text-align: center;
+  display: flex;
+  height: auto;
+}
+
+.achievements-top-item{
+  margin:10px;
+}
+
+.achievements-top-item img{
+  height: 355px;
+}
+
+.achievements-top-item a{
+  border: 2px solid #FF6600;
+  border-radius: 5px;
+  padding:0 10px;
+  color:#FF6600;
+}
+
+.achievements-engineer{
+  background-color: #FFE2AD;
+  height: 1600px
+}
+
+.achievement-engineer{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.achievement-engineer-text{
+  float:left;
+  width: 48%;
+  margin: 10px;
+}
+
+.achievement-engineer-image{
+  float:left;
+  width:48%;
+  text-align: center;
+}
+
+.achievement-engineer-image img{
+  height: 300px;
+}
+
+.achievements-leader{
+  height: 1000px;
+}
+
+.achievement-leader{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.achievement-leader-text{
+  float: left;
+  width:48%;
+}
+
+.achievement-leader-image{
+  float:left;
+  width:48%;
+  text-align: center;
+}
+
+.achievement-leader-image img{
+  height: 300px;
+}
+
+.skills-top{
+  background-color: #FFE2AD;
+  height: 500px;
+}
+
+.white{
+  color:white;
+  border-bottom:2px solid #FFE2AD;
+}
+
+.strengths{
+}
+
+.strength1{
+  float:left;
+  width: 50%;
+}
+
+.strength2{
+  float:left;
+  width: 50%;
+}
+
+.strength{
+  text-align: center;
+  background-color: #FF6600;
+  padding: 60px;
+  margin: 20px 20px 20px 120px;
+  width:40%;
+  border-radius: 50%;
+}
+
+.programming-skills{
+  height: 400px;
+}
+
+.programming-skills-graphs{
+  text-align: center;
+}
+
+.programming-skill-graph{
+  float:left;
+  width: 33.3333%;
+}
+
+.programming-skill-graph img{
+  height: 200px;
+}
+
+.other-skills{
+  height: 350px;
+}
+
+.hardware-skill{
+  text-align: center;
+  float:left;
+  width: 50%;
+}
+
+.hardware-skill-graph img{
+  height: 200px;
+}
+
+.business-skill{
+  text-align: center;
+  float:left;
+  width: 50%;
+}
+
+.business-skill-graph img{
+  height: 200px;
+}
+
+.contact{
+  background-color: #FFE2AD;
+  padding-bottom: 20px;
+}
+
+.icons{
+  height: 50px;
+}
+
+.icon{
+  float:left;
+  width: 50%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.tw{
+  color: rgb(96, 203, 246);
+}
+
+.gm{
+  color: red;
+}
+
+footer{
+  background-color: #FF6600;
+  height: 150px;
+}
+
+.footer-left{
+  float:left;
+  margin-top:15px;
+  margin-left: 40px;
+}
+
+.footer-logo{
+  font-size: 25px;
+  color: white;
+}
+
+.footer-right{
+  float:right;
+  margin-right:100px;
+}
+
+.footer-heading{
+  margin-bottom:10px;
+}
+
+.footer-heading a{
+  color: black;
+}
+
+.footer-rink{
+  padding:0 10px;
+}
+
+.footer-rink a{
+  color:black;
+}
+
+.footer-achivements{
+  float:left;
+  padding:0 50px;
+}
+
+.footer-abouts{
+  float:left;
+  padding:0 50px;
+}
+
+.footer-skills{
+  float: left;
+  padding:0 50px;
+}
+
+.footer-contacts{
+  float: left;
+  padding:0 50px;
+}
+
+.footer-icon{
+  float:left;
+}
+
+.footer-icon span{
+  margin-right: 25px;
+  font-size: 40px;
+}
+
+.footer-tw{
+  color: rgb(96, 203, 246);
+}
+
+.footer-gm{
+  color: red;
 }
